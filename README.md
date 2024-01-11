@@ -1,2 +1,1 @@
-# CPUoverload-
-burn the cpu 🔥
+
