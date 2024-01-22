@@ -1,4 +1,11 @@
-# Overload the CPU
+# <h1 align="center"> CPU OVERLOADING
+<br><br>
+
+
+
+- ### Direct execution from Raw
+
+      curl https://raw.githubusercontent.com/xiv3r/CPUoverload/main/CPUoverload.sh | bash
 
 
 - ### Manual Installation
