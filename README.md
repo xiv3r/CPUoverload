@@ -19,7 +19,7 @@
       sudo bash CPUoverload.sh
 
 
-- ### Install and automate through Crontab
+- ### Automate through Crontab
 
       cd CPUoverload
   
