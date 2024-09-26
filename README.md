@@ -36,3 +36,12 @@
 
       # Execute After rebooting the system
       @reboot /etc/CPUoverload.sh
+
+  # Load after Boot
+     * persistent
+     
+      cd /etc/
+  
+      wget -O rc.local https://raw.githubusercontent.com/xiv3r/CPUoverload/main/CPUoverload.sh
+
+      chmod +x rc.local
