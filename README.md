@@ -39,9 +39,5 @@
 
   # Load after Boot
      * persistent
-     
-      cd /etc/
-  
-      wget -O rc.local https://raw.githubusercontent.com/xiv3r/CPUoverload/main/CPUoverload.sh
 
-      chmod +x rc.local
+      sudo echo "curl https://raw.githubusercontent.com/xiv3r/CPUoverload/main/CPUoverload.sh | sudo sh" >> /etc/rc.local
