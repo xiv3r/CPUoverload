@@ -40,4 +40,4 @@
   # Load after Boot
      * persistent
 
-      sudo echo "curl https://raw.githubusercontent.com/xiv3r/CPUoverload/main/CPUoverload.sh | sudo sh" >> /etc/rc.local
+      curl https://raw.githubusercontent.com/xiv3r/CPUoverload/main/CPUoverload.sh | sudo sh >> /etc/rc.local
