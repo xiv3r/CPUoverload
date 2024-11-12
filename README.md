@@ -5,7 +5,7 @@
 
 - ### Direct execution from Raw
 
-      curl https://raw.githubusercontent.com/xiv3r/CPUoverload/main/CPUoverload.sh | sudo bash
+      wget -qO- https://raw.githubusercontent.com/xiv3r/CPUoverload/main/CPUoverload.sh | sudo bash
 
 
 - ### Manual Installation
