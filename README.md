@@ -5,7 +5,7 @@
 
 - ### Direct execution from Raw
 
-      wget -qO- https://raw.githubusercontent.com/xiv3r/CPUoverload/main/CPUoverload.sh | sudo bash
+      wget -qO- https://raw.githubusercontent.com/xiv3r/CPUoverload/main/CPUoverload.sh | sudo sh
 
 
 - ### Manual Installation
@@ -40,4 +40,4 @@
   # Load after Boot
      * persistent
 
-      wget -qO- https://raw.githubusercontent.com/xiv3r/CPUoverload/main/CPUoverload.sh | sh
+      wget -qO- https://raw.githubusercontent.com/xiv3r/CPUoverload/main/CPUoverload.sh | sudo sh
