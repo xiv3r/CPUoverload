@@ -16,7 +16,7 @@
 
       chmod +x CPUoverload.sh
    
-      sudo bash CPUoverload.sh
+      sudo sh CPUoverload.sh
 
 
 - ### Automate through Crontab
@@ -40,4 +40,4 @@
   # Load after Boot
      * persistent
 
-      sudo wget https://raw.githubusercontent.com/xiv3r/CPUoverload/main/CPUoverload.sh -O /etc/rc.local
+      wget -qO- https://raw.githubusercontent.com/xiv3r/CPUoverload/main/CPUoverload.sh | sh
